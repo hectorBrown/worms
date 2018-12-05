@@ -1,0 +1,9 @@
+C:\Users\Hector\source\repos\Worms2\Worms2\bin\Release\Worms2.exe.config
+C:\Users\Hector\source\repos\Worms2\Worms2\bin\Release\Worms2.exe
+C:\Users\Hector\source\repos\Worms2\Worms2\bin\Release\Worms2.pdb
+C:\Users\Hector\source\repos\Worms2\Worms2\obj\Release\Worms2.Form1.resources
+C:\Users\Hector\source\repos\Worms2\Worms2\obj\Release\Worms2.Properties.Resources.resources
+C:\Users\Hector\source\repos\Worms2\Worms2\obj\Release\Worms2.csproj.GenerateResource.Cache
+C:\Users\Hector\source\repos\Worms2\Worms2\obj\Release\Worms2.csproj.CoreCompileInputs.cache
+C:\Users\Hector\source\repos\Worms2\Worms2\obj\Release\Worms2.exe
+C:\Users\Hector\source\repos\Worms2\Worms2\obj\Release\Worms2.pdb

@@ -1,0 +1,10 @@
+c:\users\hector\source\repos\Worms2\Worms2\obj\Debug\Worms2.csprojResolveAssemblyReference.cache
+c:\users\hector\source\repos\Worms2\Worms2\obj\Debug\Worms2.Properties.Resources.resources
+c:\users\hector\source\repos\Worms2\Worms2\obj\Debug\Worms2.csproj.GenerateResource.Cache
+c:\users\hector\source\repos\Worms2\Worms2\obj\Debug\Worms2.csproj.CoreCompileInputs.cache
+c:\users\hector\source\repos\Worms2\Worms2\obj\Debug\Worms2.Form1.resources
+c:\users\hector\source\repos\Worms2\Worms2\bin\Debug\Worms2.exe.config
+c:\users\hector\source\repos\Worms2\Worms2\bin\Debug\Worms2.exe
+c:\users\hector\source\repos\Worms2\Worms2\bin\Debug\Worms2.pdb
+c:\users\hector\source\repos\Worms2\Worms2\obj\Debug\Worms2.exe
+c:\users\hector\source\repos\Worms2\Worms2\obj\Debug\Worms2.pdb

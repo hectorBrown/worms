@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Worms2", "Worms2\Worms2.csproj", "{9141F42F-6BE8-4C46-858A-696B6D0EB88D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9141F42F-6BE8-4C46-858A-696B6D0EB88D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9141F42F-6BE8-4C46-858A-696B6D0EB88D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9141F42F-6BE8-4C46-858A-696B6D0EB88D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9141F42F-6BE8-4C46-858A-696B6D0EB88D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B559AE7-FD2A-44E8-BE29-42536A4CB75F}
+	EndGlobalSection
+EndGlobal
