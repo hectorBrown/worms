@@ -32,6 +32,8 @@
             this.PB_main = new System.Windows.Forms.PictureBox();
             this.TIM_animate = new System.Windows.Forms.Timer(this.components);
             this.PNL_constEditor = new System.Windows.Forms.Panel();
+            this.TB_speed = new System.Windows.Forms.TrackBar();
+            this.label5 = new System.Windows.Forms.Label();
             this.TB_no = new System.Windows.Forms.TrackBar();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -42,6 +44,7 @@
             this.TB_zoom = new System.Windows.Forms.TrackBar();
             ((System.ComponentModel.ISupportInitialize)(this.PB_main)).BeginInit();
             this.PNL_constEditor.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.TB_speed)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TB_no)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TB_trail)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TB_turn)).BeginInit();
@@ -53,7 +56,7 @@
             this.PB_main.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.PB_main.Location = new System.Drawing.Point(0, 74);
             this.PB_main.Name = "PB_main";
-            this.PB_main.Size = new System.Drawing.Size(1298, 429);
+            this.PB_main.Size = new System.Drawing.Size(1442, 429);
             this.PB_main.TabIndex = 0;
             this.PB_main.TabStop = false;
             this.PB_main.Paint += new System.Windows.Forms.PaintEventHandler(this.PB_main_Paint);
@@ -66,6 +69,8 @@
             // 
             // PNL_constEditor
             // 
+            this.PNL_constEditor.Controls.Add(this.TB_speed);
+            this.PNL_constEditor.Controls.Add(this.label5);
             this.PNL_constEditor.Controls.Add(this.TB_no);
             this.PNL_constEditor.Controls.Add(this.label4);
             this.PNL_constEditor.Controls.Add(this.label3);
@@ -77,12 +82,31 @@
             this.PNL_constEditor.Dock = System.Windows.Forms.DockStyle.Top;
             this.PNL_constEditor.Location = new System.Drawing.Point(0, 0);
             this.PNL_constEditor.Name = "PNL_constEditor";
-            this.PNL_constEditor.Size = new System.Drawing.Size(1298, 68);
+            this.PNL_constEditor.Size = new System.Drawing.Size(1442, 68);
             this.PNL_constEditor.TabIndex = 1;
+            // 
+            // TB_speed
+            // 
+            this.TB_speed.Location = new System.Drawing.Point(1285, 12);
+            this.TB_speed.Minimum = 1;
+            this.TB_speed.Name = "TB_speed";
+            this.TB_speed.Size = new System.Drawing.Size(145, 45);
+            this.TB_speed.TabIndex = 9;
+            this.TB_speed.Value = 1;
+            this.TB_speed.Scroll += new System.EventHandler(this.TB_speed_Scroll);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(1241, 22);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(38, 13);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "Speed";
             // 
             // TB_no
             // 
-            this.TB_no.Location = new System.Drawing.Point(956, 12);
+            this.TB_no.Location = new System.Drawing.Point(888, 12);
             this.TB_no.Maximum = 1000;
             this.TB_no.Name = "TB_no";
             this.TB_no.Size = new System.Drawing.Size(330, 45);
@@ -92,7 +116,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(906, 22);
+            this.label4.Location = new System.Drawing.Point(838, 22);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(44, 13);
             this.label4.TabIndex = 6;
@@ -131,7 +155,7 @@
             this.TB_trail.Maximum = 200;
             this.TB_trail.Minimum = 1;
             this.TB_trail.Name = "TB_trail";
-            this.TB_trail.Size = new System.Drawing.Size(315, 45);
+            this.TB_trail.Size = new System.Drawing.Size(247, 45);
             this.TB_trail.TabIndex = 2;
             this.TB_trail.Value = 1;
             this.TB_trail.Scroll += new System.EventHandler(this.TB_trail_Scroll);
@@ -159,7 +183,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1298, 503);
+            this.ClientSize = new System.Drawing.Size(1442, 503);
             this.Controls.Add(this.PNL_constEditor);
             this.Controls.Add(this.PB_main);
             this.Name = "Form1";
@@ -169,6 +193,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.PB_main)).EndInit();
             this.PNL_constEditor.ResumeLayout(false);
             this.PNL_constEditor.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.TB_speed)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TB_no)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TB_trail)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TB_turn)).EndInit();
@@ -190,6 +215,8 @@
         private System.Windows.Forms.TrackBar TB_zoom;
         private System.Windows.Forms.TrackBar TB_no;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TrackBar TB_speed;
+        private System.Windows.Forms.Label label5;
     }
 }
 

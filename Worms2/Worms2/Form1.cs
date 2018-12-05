@@ -48,6 +48,7 @@ namespace Worms2
             TB_turn.Value = TURNSPEED;
             TB_trail.Value = TRAILLENGTH;
             TB_no.Value = NUMBER;
+            TB_speed.Value = (MAG / BOISIZE) * 10;
             Init();
         }
 
@@ -117,8 +118,9 @@ namespace Worms2
 
         private void TB_zoom_Scroll(object sender, EventArgs e)
         {
+            double speed = TB_speed.Value / 10.0;
             BOISIZE = TB_zoom.Value;
-            MAG = TB_zoom.Value;
+            MAG = Convert.ToInt32(BOISIZE * speed);
             Init();
         }
         private void TB_turn_Scroll(object sender, EventArgs e)
@@ -130,6 +132,11 @@ namespace Worms2
         {
             NUMBER = TB_no.Value;
             Init();
+        }
+        private void TB_speed_Scroll(object sender, EventArgs e)
+        {
+            double speed = TB_speed.Value / 10.0;
+            MAG = Convert.ToInt32(BOISIZE * speed);
         }
 
         private void Form1_ResizeEnd(object sender, EventArgs e)
