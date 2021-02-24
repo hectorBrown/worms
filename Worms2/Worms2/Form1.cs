@@ -102,7 +102,7 @@ namespace Worms2
                 else if (boi.boi.Bottom > PB_main.Height)
                 {
                     boi.boi.Y = PB_main.Height - BOISIZE;
-                    boi.angle = rng.Next(0, 1);
+                    boi.angle = rng.Next(0, 2);
                     if (boi.angle == 0)
                     {
                         boi.angle = rng.Next(0, 91);
